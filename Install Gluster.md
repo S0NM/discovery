@@ -12,6 +12,7 @@ This document provides informaion about the following:
 **Reference**: [Achirecture][gs-arch] , [Installation][gs-instal]
 ### Environment
 GlusterFS will be installed on two nodes acting as a replicated volume
+
 |Servers|IP|
 |--|----|
 |gluster.master1|192.168.9.66|
