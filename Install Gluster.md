@@ -27,9 +27,13 @@ GlusterFS will be installed on two nodes acting as a replicated volume
 Using _vi_ to add lines into **/etc/hosts** for ll servers and clients
 
 >127.0.0.1 localhost
+
 >192.168.9.63 worker_node1
+
 >192.168.9.64 worker_node2
+
 >192.168.9.66 gluster.master1
+
 >192.168.9.66 gluster.master2
 
 ## Step 1: Install GlusterFS
