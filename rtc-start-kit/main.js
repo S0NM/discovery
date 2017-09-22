@@ -1,4 +1,4 @@
-const socket = io('http://localhost:3000');
+const socket = io('https://stream2209.herokuapp.com/');
 
 $('#div-chat').hide();
 
