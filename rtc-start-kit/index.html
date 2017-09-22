@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Khoa Pham WebRTC</title>
+        <script src="jquery.js"></script>
+        <script src="peer.js"></script>
+        <script src="socket.io.js"></script>
+    </head>
+    <body>
+        <div id = "div-chat">
+        <p> Online user: </p>
+        <ul id="ulUsers">
+
+        </ul>
+        <h3 id = "mypeer"> Your Id: </h3>
+        <h4> Local Stream </h4>
+        <video id="localStream" width="300" controls></video>
+        <br /><br />
+        <h4> Remote Stream </h4>
+        <video id="remoteStream" width="300" controls></video>
+        <br /><br />
+        <input type = "text" id = "remoteid" placeholder = "Remote ID">
+        <button id = "btnCall">Call</button>
+        </div>
+        <div id ="div-dangky">
+        <br /><br />
+        <input type = "text" id = "txtUsername" placeholder = "Enter your username">
+        <button id = "btnSignup">Sign Up</button>
+        </div>
+    </body>
+    <script src="main.js"></script>
+</html>
