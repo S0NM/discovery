@@ -21,6 +21,7 @@ Last Updated: 25/09/2017
 * [Series - Microservices: It’s not (only) the size that matters](https://www.tigerteam.dk/2014/micro-services-its-not-only-the-size-that-matters-its-also-how-you-use-them-part-1/)
 * [IBM Microservice Refactoring](https://www.ibm.com/developerworks/cloud/library/cl-refactor-microservices-bluemix-trs-1/index.html)
 * [Angularjs and Microservices](https://speakerdeck.com/purplebooth/angularjs-and-microservices)
+* KhoiNM - [Giải đáp những thắc mắc kĩ thuật quan trọng về Microservices](https://techtalk.vn/giai-dap-nhung-thac-mac-ki-thuat-quan-trong-ve-microservices.html)
 
 ### 5.Database
 * [SQL vs NoSQL vs NewSQL Chọn cái nào](https://gramy.vn/sql-vs-nosql-vs-newsql-chon-cai-nao/)
@@ -28,7 +29,9 @@ Last Updated: 25/09/2017
 
 CQRS
 * [Building Scalable Applications Using Event Sourcing and CQRS](https://initiate.andela.com/event-sourcing-and-cqrs-a-look-at-kafka-e0c1b90d17d8)
-* 
+* SlideShare - [ITLC - Hanoi - CQRS - ES - 22-10 - 2015](https://www.slideshare.net/HanoiItlc/itlc-hanoi-cqrs-es-2210-2015)
+* [Thứ tự message trong mô hình Event Sourcing](https://kipalog.com/posts/Thu-tu-message-trong-mo-hinh-Event-Sourcing)
+* [Một số phân tích về deadlock trong cơ sở dữ liệu](https://kipalog.com/posts/Mot-so-phan-tich-ve-deadlock-trong-co-so-du-lieu)
 
 Graph Database
 * [Vimeo - Designing and Implementing a Graph Database Application](https://vimeo.com/74320611)
@@ -41,6 +44,8 @@ Graph Database
 ### 7.IBM Cloud Private
 * [Cloud Privaet - 2.1 Beta](https://github.com/ibm-cloud-architecture/refarch-cloudnative-kubernetes?cm_mc_uid=55223281292015024587668&cm_mc_sid_50200000=1505831221)
 * [TechTalk - Developing Microservices and APIs on Bluemix](https://developer.ibm.com/code/events/oci-tech-talk/)
+* [Orchestrating Docker Containers with Kubernetes](https://dzone.com/articles/orchestrating-docker-containers-with-kubernetes)
+* [KUBERNETES: AN OVERVIEW](https://thenewstack.io/kubernetes-an-overview/)
 
 
 ### 8. Web Audio API
