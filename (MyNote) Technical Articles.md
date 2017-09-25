@@ -57,6 +57,7 @@ Graph Database
 
 ### 9. Blog (Tản mạn)
 * [Huy's Blog](https://thefullsnack.com)
+* [Cẩm Huỳnh](https://kipalog.com/users/hqc/mypage)
 
 ### Other
 * SlideShare - [HTML5 WebSocket Introduction](https://www.slideshare.net/MarceloJabali/html5-websocket-introduction)
