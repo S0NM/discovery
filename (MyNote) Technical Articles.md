@@ -4,6 +4,9 @@ Created by **SonM**
 Created Date: 25/09/2017
 Last Updated: 25/09/2017
 
+### Technology News
+* [IBM Tech Talk Videos](https://developer.ibm.com/code/videos/)
+
 ### 1.Architecture
 * [How IBM leads in building big data analytics solutions in the cloud](https://www.ibm.com/developerworks/cloud/library/cl-ibm-leads-building-big-data-analytics-solutions-cloud-trs/index.html)
 
