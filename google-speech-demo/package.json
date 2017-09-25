@@ -1,0 +1,21 @@
+{
+  "name": "google-speech-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "audio-note.js",
+  "dependencies": {
+    "@google-cloud/speech": "^0.10.3",
+    "node-record-lpcm16": "^0.3.0",
+    "path": "^0.12.7",
+    "recorderjs": "^1.0.1",
+    "socket.io": "^2.0.3",
+    "wav": "^1.0.1",
+    "web-audio-api": "^0.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
