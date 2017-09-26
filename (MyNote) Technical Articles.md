@@ -55,6 +55,7 @@ Graph Database
 ### 8. Web Audio API
 * **Level 1** - [Basic concepts behind Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Basic_concepts_behind_Web_Audio_API)
 * [Tutorial: HTML Audio Capture streaming to Node.js (no browser extensions)](https://subvisual.co/blog/posts/39-tutorial-html-audio-capture-streaming-to-node-js-no-browser-extensions/)
+* [Introduction to Web Audio API](https://css-tricks.com/introduction-web-audio-api/)
 
 ### 9. Blog (Tản mạn)
 * [Huy's Blog](https://thefullsnack.com)
