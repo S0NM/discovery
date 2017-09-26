@@ -19,6 +19,7 @@ Last Updated: 25/09/2017
 * [Multi-Tenancy Design Consideration](https://www.codeproject.com/Articles/809851/Multi-Tenancy-Design-Consideration)
 
 ### 4.Microservices
+* Youtube - [Docker Training Series](https://www.youtube.com/watch?v=DgoKjlDteEA&list=PLea0WJq13cnDsF4MrbNaw3b4jI0GT9yKt)
 * [Chuyện tui học đòi sử dụng Amazon Web Services](https://nhanweb.com/chuyen-tui-hoc-doi-su-dung-amazon-web-services-aws-1.html)
 * [Youtube- Scaling Up to Your First 10 Million Users](https://www.youtube.com/watch?v=n28lDDdlnVg)
 * [Series - An Introduction to Microservices ](https://auth0.com/blog/an-introduction-to-microservices-part-1/)
