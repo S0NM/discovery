@@ -7,7 +7,9 @@ Created Date: 02/10/2017
 #Analysis = tokenization + token filters
 #Tokenization breaks sentences into discrete tokens
 
-Reference Document: [Tài liệu Tiếng Việt](https://viblo.asia/p/tim-hieu-tokenizers-pho-bien-trong-elasticsearch-GrLZDbke5k0)
+Reference Document: 
+[Tài liệu Tiếng Việt](https://viblo.asia/p/tim-hieu-tokenizers-pho-bien-trong-elasticsearch-GrLZDbke5k0)
+[English Document](https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-tokenizers.html)
 
 ### 1.Using Standard Tokenizer
 ```rest
