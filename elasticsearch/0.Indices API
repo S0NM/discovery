@@ -1,0 +1,15 @@
+# GET /
+
+Created by **SonM** 
+
+
+### 1.List All Indices
+```rest
+GET /_cat/indices?v
+```
+
+
+
+
+**The Sun never knew how greate it was until it hit the side of a building**
+**~Louis Kahn!**
