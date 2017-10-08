@@ -15,6 +15,7 @@ Created Date: 04/10/2017
 * [Query Optimization] (https://speakerdeck.com/polyfractal/elasticsearch-query-optimization)
 * [Elasticsearch Indexing Performance Cheatsheet](https://blog.codecentric.de/en/2014/05/elasticsearch-indexing-performance-cheatsheet/)
 * [How we optimized 100 sec elasticsearch queries to be under a sub second](https://abhishek376.wordpress.com/2014/11/24/how-we-optimized-100-sec-elasticsearch-queries-to-be-under-a-sub-second/)
+* [Monitoring elasticsearch performance like a pro](https://www.loggly.com/blog/how-to-monitor-elasticsearch-performance-like-a-pro-logfooding-part-1/)
 
 **The Sun never knew how greate it was until it hit the side of a building**
 **~Louis Kahn!**
