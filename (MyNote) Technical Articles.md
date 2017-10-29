@@ -7,6 +7,7 @@ Last Updated: 25/09/2017
 ### Technology News
 * Youtube - [IBM Tech Talk Videos](https://www.youtube.com/channel/UCpgOrqkvWX_AZQ9alGmUK-w)
 * [Kube Journey](http://ibm.biz/kube-journeys)
+* [Microservices Talk](https://www.microservices.com/talks/)
 
 ### 1.Architecture
 * [How IBM leads in building big data analytics solutions in the cloud](https://www.ibm.com/developerworks/cloud/library/cl-ibm-leads-building-big-data-analytics-solutions-cloud-trs/index.html)
