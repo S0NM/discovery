@@ -78,7 +78,10 @@ Set multiple fields
 > HMSET user:1001 name "Mary Jones" password "hidden" email "mjones@example.com"
 ```
 
-
+C. Performance
+How fast is Redis?
+* [Using benchmarks](https://redis.io/topics/benchmarks)
+* 
 
 
 
