@@ -73,6 +73,11 @@ Oprations: **HSET, HGETALL, HMSET, HGET**
 > HSET user:1000 email "john.smith@example.com"
 > HSET user:1000 password "s3cret"
 ```
+Set multiple fields
+```sh
+> HMSET user:1001 name "Mary Jones" password "hidden" email "mjones@example.com"
+```
+
 
 
 
