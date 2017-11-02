@@ -3,7 +3,7 @@
 Before going details in this tutorial, please make sure you have finished
 * Tutorials on [this link](http://try.redis.io/) 
 * Using **redis-cli**
-
+* Explain Redis Type and Commands Performance ([link](https://www.slideshare.net/ncaneco/tuga-it-2017-redis?qid=b42986f6-5177-4899-a29e-30d0a46a5bd2&v=&b=&from_search=1))
 ### B. Basic Operations
 
 ### 1. Time to Live Operations
