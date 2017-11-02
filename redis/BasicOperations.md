@@ -3,7 +3,9 @@
 Before going details in this tutorial, please make sure you have finished
 * Tutorials on [this link](http://try.redis.io/) 
 * Using **redis-cli**
+
 ### B. Basic Operations
+
 ### 1. Time to Live Operations
 Use: TTL can be used with Redis data structures.
 Operations:**EXPIRE, TTL**
@@ -22,14 +24,10 @@ Test with String
 > GET name 
 #Output: Jorge
 ```
-
 Test with number
 ```sh
 > SET number 1000
 > INCR number
 #Output: 1001
 ```
-
-
-
-### LIST
+### 3. LIST
