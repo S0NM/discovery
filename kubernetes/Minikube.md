@@ -42,3 +42,82 @@ $kubectl get svc first-deployment -o json
 #Get service Port
 $export PORT=$(kubectl get svc first-deployment -o go-template='{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}')
 ```
+
+================== TUTORIAL 2======================
+##Using Kubeadm to bootstrap a Kubernetes cluster
+**Initialise Master**
+```sh
+#Initialise the cluster with a known token
+$kubeadm init --token=102952.1a7dd4cc8d1f4cc5 --kubernetes-version v1.8.0
+#Additional nodes can join the cluster as long as thay have the correct token. View the token by using this command:
+$kubeadm token list
+#To join the cluster
+$kubeadm join --token=102952.1a7dd4cc8d1f4cc5 172.17.0.9:6443
+```
+**Init configuration for kubectl to interact with cluster**
+```sh
+#Save configuration to KUBECONFIG
+export KUBECONFIG=$HOME/admin.conf
+```
+**Deploy Container Networking Interface (CNI)**
+In this scenario, we'll use WeaveWork, but in practical Calico is being used instead [link](https://kubernetes.io/docs/concepts/cluster-administration/addons/)
+```sh
+#view configuration
+$cat /opt/weave-kube
+#Apply depoyment
+$kubectl apply -f /opt/weave-kube
+#Weave will now deploy as a series of Pods on the cluster. Show the status:
+$kubectl get pod -n kube-system
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
