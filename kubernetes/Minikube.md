@@ -1,5 +1,5 @@
-# Minikube Tutorial
-
+### ========== TUTORIAL 1===============
+**Objective:** Play with minikube
 **Start Minikube**
 ```sh
 #Check version
@@ -43,8 +43,9 @@ $kubectl get svc first-deployment -o json
 $export PORT=$(kubectl get svc first-deployment -o go-template='{{range.spec.ports}}{{if .nodePort}}{{.nodePort}}{{"\n"}}{{end}}{{end}}')
 ```
 
-================== TUTORIAL 2======================
-##Using Kubeadm to bootstrap a Kubernetes cluster
+### ========== TUTORIAL 2===============
+**Objective:** Using Kubeadm to bootstrap a Kubernetes cluster
+
 **Initialise Master**
 ```sh
 #Initialise the cluster with a known token
@@ -68,8 +69,24 @@ $cat /opt/weave-kube
 $kubectl apply -f /opt/weave-kube
 #Weave will now deploy as a series of Pods on the cluster. Show the status:
 $kubectl get pod -n kube-system
+#Deploy dashboard
+$kubectl apply -f /root/dashboard.yaml
 ```
 
+### ========== TUTORIAL 3===============
+**Objective:** Deploy Guestbook example on Kubernetes. This scenario cover concepts of:
+* Pods
+* Replication Controllers
+* Service 
+* NodePorts
+
+
+
+### ========== TUTORIAL 4===============
+**Objective:** 
+
+### ========== TUTORIAL 5===============
+**Objective:** 
 
 
 
