@@ -80,7 +80,11 @@ $kubectl apply -f /root/dashboard.yaml
 * Service 
 * NodePorts
 
-
+**Check everything is up**
+Tips: set value for KUBERNETES_MASTER to pass over the error "The connection to the server host01:8080 was refused - did you specify the right host or port?"
+```sh
+$export KUBERNETES_MASTER=http://host01:8080
+```
 
 ### ========== TUTORIAL 4===============
 **Objective:** 
