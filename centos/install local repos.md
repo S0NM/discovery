@@ -15,8 +15,10 @@ createrepo /var/ftp/pub/updates
 #update repo after adding some rpm files server's repository
 $createrepo --update /var/ftp/pub
 ```
+
 Client:
 * declare repo in /etc/yum.repos.d/file.repo
+
 ```sh
 [base]
 name=base
@@ -26,7 +28,6 @@ gpgcheck=0
 ```
 
 ```sh
-#declare repo in /etc/yum.repos.d/file.repo
 #update repos
 $yum -v clean expire-cache
 ```
