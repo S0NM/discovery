@@ -17,11 +17,11 @@ $createrepo --update /var/ftp/pub
 ```
 Client:
 declare repo in /etc/yum.repos.d/file.repo
->[base]
->name=base
->baseurl=ftp://<IP>/...
->enabled=1
->gpgcheck=0
+> [base]
+> name=base
+> baseurl=ftp://<IP>/...
+> enabled=1
+> gpgcheck=0
 ```sh
 #declare repo in /etc/yum.repos.d/file.repo
 #update repos
