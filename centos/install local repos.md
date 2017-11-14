@@ -16,8 +16,8 @@ createrepo /var/ftp/pub/updates
 $createrepo --update /var/ftp/pub
 ```
 Client:
-declare repo in /etc/yum.repos.d/file.repo
-```
+* declare repo in /etc/yum.repos.d/file.repo
+```sh
 [base]
 name=base
 baseurl=ftp://<IP>/...
