@@ -8,7 +8,9 @@ Before going details in this tutorial, please make sure you have finished
 
 ### 1. Time to Live Operations
 Use: TTL can be used with Redis data structures.
+
 Operations:**EXPIRE, TTL**
+
 Test TTL
 ```sh
 > EXPIRE number 120
@@ -18,7 +20,9 @@ Test TTL
 
 ### 2. STRING
 Operations: **SET, GET, INCR**
+
 Test with String
+
 ```sh
 > SET name Jorge
 > GET name 
@@ -32,10 +36,15 @@ Test with number
 ```
 ### 3. LIST
 Operations: **RPUSH, LPUSH, LLEN, LRANGE, LPOP, and RPOP**
+
 RPUSH: puts the new value at the end of the list
+
 LPUSH: puts the new value at the start of the list
+
 LRANGE: gives a subset of the list
+
 LLEN: returns the current length of the list
+
 _**Note: Index starts from 0**_
 ```sh
 # 1) Sam, 2) Alice, 3) Bob
@@ -48,11 +57,17 @@ _**Note: Index starts from 0**_
 
 ### 4. SET
 Operations: **SADD, SREM, SISMEMBER, SMEMBERS, SUNION**
+
 SADD: adds the given value to the set
+
 SREM: removes the given value from the set
+
 SISMEMBER: 1 if true, 0 if false
+
 SMEMBER: returns a list of all the members of this set
+
 SUNION: combines two or more sets and returns the list of all elements
+
 ```sh
 > SADD birdpowers "pecking"
 > ADD birdpowers "flight"
