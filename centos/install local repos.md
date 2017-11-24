@@ -31,3 +31,5 @@ gpgcheck=0
 #update repos
 $yum -v clean expire-cache
 ```
+
+[Adding DNS for local repository](https://adminvietnam.org/cau-hinh-dns-tren-centos-7/2218/)
