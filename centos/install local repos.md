@@ -33,3 +33,8 @@ $yum -v clean expire-cache
 ```
 
 [Adding DNS for local repository](https://adminvietnam.org/cau-hinh-dns-tren-centos-7/2218/)
+```sh
+#Add nameserver
+$cat /etc/resolv.conf
+nameserver 192.168.x.x
+```
