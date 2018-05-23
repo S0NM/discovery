@@ -13,7 +13,7 @@ wget -r -N --no-parent http://....../updates
 createrepo /var/ftp/pub/updates
 
 #update repo after adding some rpm files server's repository
-$createrepo --update /var/ftp/pub
+$createrepo --update /var/ftp/pub/base
 ```
 
 Client:
