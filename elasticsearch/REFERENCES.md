@@ -3,7 +3,7 @@
 Created by **SonM** 
 Created Date: 04/10/2017
 
-
+* [Tìm hiểu cơ bản về Elasticsearch - 5 phần](https://viblo.asia/s/tim-hieu-ve-elasticsearch-VgZvE2M1KAw)
 * [ELASTICSEARCH CRUD .NET PROVIDER](https://damienbod.com/2014/09/22/elasticsearch-crud-net-provider/)
 * [Full Text Search từ lý thuyết đến thực tiễn](http://ktmt.github.io/blog/2014/05/09/full-text-search-tu-ly-thuyet-den-thuc-tien-phan-cuoi/)
 * [Revealing the Uncommonly Common with Elasticsearch](https://www.infoq.com/presentations/elasticsearch-revealing-uncommonly-common)
