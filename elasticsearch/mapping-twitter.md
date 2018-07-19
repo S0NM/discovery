@@ -1,3 +1,4 @@
+```json
 #Get all indices
 GET /_cat/indices?pretty
 
@@ -54,4 +55,4 @@ GET sonm-twitter/_search
     }
   }
 }
-
+```
