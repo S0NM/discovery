@@ -4,6 +4,22 @@
 * [Mkyong Tutorial](https://www.mkyong.com/java/java-jmh-benchmark-tutorial/)
 * [Vietnamese Tutorial](https://techblog.vn/introduce-and-guide-jmh-library-measure-performance-tool-of-java-code)
 
+
+### Step 0: Adding in pom.xml
+```xml
+<dependency>
+	<groupId>org.openjdk.jmh</groupId>
+	<artifactId>jmh-core</artifactId>
+	<version>${jmh.version}</version>
+</dependency>
+    <dependency>
+	<groupId>org.openjdk.jmh</groupId>
+	<artifactId>jmh-generator-annprocess</artifactId>
+	<version>${jmh.version}</version>
+	<scope>provided</scope>
+</dependency>
+```
+
 ### Step 1: Create BenchmarkLoop.java
 ```java
 package vn.five9.test;
