@@ -2,7 +2,7 @@
 
 ### Refernce Document
 * [Mkyong Tutorial](https://www.mkyong.com/java/java-jmh-benchmark-tutorial/)
-* [Vietnamese Tutorial](https://gpcoder.com/3923-gioi-thieu-ve-stream-api-trong-java-8/?fbclid=IwAR2rL3L1z71UnwDZW0IkZhlKDDmS9bN85CTidBMPY7XTZH3gR1N1xoBfhdQ)
+* [Vietnamese Tutorial](https://techblog.vn/introduce-and-guide-jmh-library-measure-performance-tool-of-java-code)
 
 ### Step 1: Create BenchmarkLoop.java
 ```java
