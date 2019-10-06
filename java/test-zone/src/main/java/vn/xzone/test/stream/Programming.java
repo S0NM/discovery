@@ -1,4 +1,4 @@
-package vn.five9.test.stream;
+package vn.xzone.test.stream;
 
 public class Programming {
 	private String name;

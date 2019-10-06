@@ -64,13 +64,11 @@ Security
 public class HelloEndpoint {
 
     @GetMapping("/admin/hello")
-    @Secured("ROLE_ADMIN")
     public String sayHelloToAdmin() {
         return "Hello Admin";
     }
 
     @GetMapping("/user/hello")
-    @Secured("ROLE_USER")
     public String sayHelloToUser() {
         return "Hello User";
     }

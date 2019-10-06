@@ -1,4 +1,4 @@
-package vn.five9.test.stream;
+package vn.xzone.test.stream;
 
 import java.util.function.Supplier;
 import java.util.stream.Stream;
